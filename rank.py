@@ -36,7 +36,6 @@ MODELS = [
 ]
 
 CLASSIFICATION_METRICS = [
-    "AUPRC_mean",
     "AUC_EVENT_mean",
     "LOGLOSS_EVENT_mean",
     "RMSE_EVENT_mean",
@@ -54,6 +53,7 @@ REGRESSION_METRICS = [
 SURVIVAL_METRICS = [
     "CI_mean",
     "IBS_mean",
+    "AUPRC_mean",
 ]
 
 HIGHER_BETTER = {
